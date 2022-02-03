@@ -5,7 +5,7 @@
 ## Running Project
 
 1. Clone project in your machine
-2. create and run the virtualenv from this command
+2. Create and active the virtualenv from this command
 
 ```bash
   python3 -m venv venv
@@ -26,5 +26,7 @@
 5. Running a custom management command
 
 ```bash
+
+  #python manage.py command_file_name file_json
   python manage.py load_data peoples.json
 ```
