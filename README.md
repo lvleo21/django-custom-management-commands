@@ -2,7 +2,15 @@
 
 <p align="center">This project example will show how to add data from file json in your database through a django custom management commands.</p>
 
-## Running Project
+
+## Table of Contents
+
+<!--ts-->
+   * [Running this project](#running-this-project)
+   * [Creating your custom command](#creating-your-custom-command)
+<!--te-->
+
+## Running this project
 
 1. Clone project in your machine
 2. Create and active the virtualenv from this command
@@ -23,10 +31,22 @@
 ```bash
   python manage.py migrate
 ```
-5. Running a custom management command
+5. Run the custom management command
 
 ```bash
-
-  #python manage.py command_file_name file_json
   python manage.py load_data peoples.json
 ```
+
+## Creating your custom command
+
+
+1. In your project app, create directory called **management** and a child directory called **commands**
+
+2. Create a python file with the name “my_command.py” (choose the name according to what your command is going to do) inside the commands directory
+
+3. 
+
+
+<h4 align="center"> 
+	🚧  Readme in construction...  🚧
+</h4>

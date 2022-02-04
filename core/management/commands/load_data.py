@@ -10,9 +10,9 @@ class Command(BaseCommand):
         parser.add_argument('file_name', type=str)
 
     def handle(self, *args, **options):
-            
-            file_name = options.get("file_name", None)
 
+            file_name = options.get("file_name", None)
+        
             try:
                 if file_name:
                     with open(f"{BASE_DIR}/{file_name}") as json_file:
